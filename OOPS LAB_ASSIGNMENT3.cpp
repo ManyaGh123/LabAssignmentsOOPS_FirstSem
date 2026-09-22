@@ -24,7 +24,7 @@ void display(Student s) {
 //     display(s);
 // }
 
-
+//QUESTION 2
 class Number {
     int a;
     int b;
@@ -38,6 +38,13 @@ class Number {
 int sum(Number n) {
      return (n.a + n.b);
 }
+
+
+// ----- MAIN FOR QUESTION 2 -----
+// int main() {
+//     Number n(10, 20);
+//     cout << "Sum: " << sum(n);
+// }
 
 //QUESTION 3
 class Employee {
@@ -58,6 +65,16 @@ void compare(Employee e1, Employee e2) {
     }
 }
 
+// ----- MAIN FOR QUESTION 3 -----
+// int main() {
+//     Employee e1(50000);
+//     Employee e2(70000);
+//
+//     compare(e1, e2);
+// }
+
+
+//QUESTION 4
 class Student2 {
     static int count;
     public:
@@ -71,6 +88,14 @@ class Student2 {
 
 int Student2::count = 0;
 
+// ----- MAIN FOR QUESTION 4 -----
+// int main() {
+//     Student2 s1;
+//     Student2 s2;
+//     Student2 s3;
+//
+//     Student2::display();
+// }
 
 //QUESTION 5
 class Bank {
