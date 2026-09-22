@@ -185,7 +185,7 @@ int main() {
     c1.display();
     c2.display();
 
-    //QUESTION 7
+    //QUESTION 7 AND QUESTION 8
     cout << "Creating objects..." << endl;
     Demo d1;
     Demo d3;
