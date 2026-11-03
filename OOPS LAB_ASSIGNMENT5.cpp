@@ -1,6 +1,6 @@
-
 #include <iostream>
 using namespace std;
+
 class Print {
   public:
   // QUESTION 1
@@ -140,12 +140,12 @@ class ShoppingBill {
   }
 };
 
-int main() {
-    ShoppingBill s;
-    s.calcBill(5, 900.75);
-    s.calcBill(4, 500.50, 5, 800.75);
-    s.calcBill(15000.0, 10);
-}
+// int main() {
+//     ShoppingBill s;
+//     s.calcBill(5, 900.75);
+//     s.calcBill(4, 500.50, 5, 800.75);
+//     s.calcBill(15000.0, 10);
+// }
 
 
 class Student2 {
