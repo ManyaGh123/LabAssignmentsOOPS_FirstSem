@@ -121,6 +121,7 @@ class ContractEmployee: public Employee {
 //     ptr->calcSalary();
 // }
 
+//QUESTION 5
 class Vehicle {
   public:
   void virtual displayInfo() {
@@ -161,6 +162,7 @@ class Bus : public Vehicle {
 //     ptr->displayInfo();
 // }
 
+//QUESTION 6
 class BankAccount{
     public:
     string name;
@@ -203,7 +205,7 @@ class FixedDeposit : public BankAccount {
 //     ptr->calcInterest();
 // }
 
-
+//QUESTION 7
 class Person {
     public:
     Person() {
