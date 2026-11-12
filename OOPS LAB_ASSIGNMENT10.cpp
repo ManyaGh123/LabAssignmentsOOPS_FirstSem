@@ -40,7 +40,7 @@ class VectorOperations {
     
 // }
 
-
+//QUESTION 2
 class ListOperations {
     public:
     list<int> l;
@@ -70,6 +70,7 @@ class ListOperations {
 //     l.display();
 // }
 
+//QUESTION 3
 class SortSearch {
     public:
     vector<int> v;
@@ -140,6 +141,7 @@ class Operations {
 //     o.queueOperations();
 // }
 
+//QUESTION 5
 class Student {
     map<int, string> m;
     public:
